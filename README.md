@@ -1,4 +1,4 @@
-# PhiSpyWeb
+# PhiSpyViz
 
 [![Edwards Lab](https://img.shields.io/badge/Bioinformatics-EdwardsLab-03A9F4)](https://edwards.flinders.edu.au/)
 [![-viz](https://img.shields.io/badge/FAME--viz-03A9F4)](https://edwards.flinders.edu.au/viz/)
@@ -8,19 +8,19 @@
 
 ![-viz bioinformatics](images/viz.png)
 
-**PhiSpyWeb** is a browser-based prophage prediction tool that runs [PhiSpy](https://github.com/linsalrob/PhiSpy) entirely in your web browser using [Pyodide](https://pyodide.org) and WebAssembly.
+**PhiSpyViz** is a browser-based prophage prediction tool that runs [PhiSpy](https://github.com/linsalrob/PhiSpy) entirely in your web browser using [Pyodide](https://pyodide.org) and WebAssembly.
 
 No installation required. No data leaves your computer.
 
-[Try PhiSpyWeb Here](https://linsalrob.github.io/PhiSpyWeb/)
+[Try PhiSpyViz Here](https://linsalrob.github.io/PhiSpyViz/)
 
 ---
 
-## What is PhiSpyWeb?
+## What is PhiSpyViz?
 
-PhiSpyWeb is a static web application that wraps the PhiSpy prophage prediction algorithm and makes it accessible directly from any modern web browser. It loads PhiSpy into a WebAssembly-based Python interpreter (Pyodide), accepts a bacterial genome in GenBank format, runs the full PhiSpy analysis, and displays the predicted prophage regions — all without sending any data to a server.
+PhiSpyViz is a static web application that wraps the PhiSpy prophage prediction algorithm and makes it accessible directly from any modern web browser. It loads PhiSpy into a WebAssembly-based Python interpreter (Pyodide), accepts a bacterial genome in GenBank format, runs the full PhiSpy analysis, and displays the predicted prophage regions — all without sending any data to a server.
 
-PhiSpyWeb is a web front-end for [PhiSpy](https://github.com/linsalrob/PhiSpy), the command-line prophage prediction tool by Rob Edwards and colleagues. PhiSpyWeb uses the same algorithm and package via Pyodide. For citation purposes, please cite the original PhiSpy publications (see below).
+PhiSpyViz is a web front-end for [PhiSpy](https://github.com/linsalrob/PhiSpy), the command-line prophage prediction tool by Rob Edwards and colleagues. PhiSpyViz uses the same algorithm and package via Pyodide. For citation purposes, please cite the original PhiSpy publications (see below).
 
 The command line version has a few additional options that are not available in the web version. For example, the command line version can use an HMM search against a phage protein database (e.g. VOG or PHROGs) to improve the results.
 
@@ -54,7 +54,7 @@ All computation runs in your browser using a Web Worker and the Pyodide WebAssem
 
 ## Citation
 
-If you use PhiSpyWeb in your research, please cite the original PhiSpy publications:
+If you use PhiSpyViz in your research, please cite the original PhiSpy publications:
 
 > Sajia Akhter, Ramy K. Aziz, Robert A. Edwards (2012).
 > **PhiSpy: a novel algorithm for finding prophages in bacterial genomes that combines similarity- and composition-based strategies.**

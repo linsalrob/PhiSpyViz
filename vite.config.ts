@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/PhiSpyWeb/",
+  base: "/PhiSpyViz/",
   plugins: [react()],
   worker: {
     format: "es",

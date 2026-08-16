@@ -1,5 +1,5 @@
 {
-  "name": "phispyweb",
+  "name": "phispyviz",
   "version": "0.1.0",
   "private": true,
   "description": "Browser-based prophage prediction using PhiSpy, Pyodide, and WebAssembly",
