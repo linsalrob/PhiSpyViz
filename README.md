@@ -1,5 +1,13 @@
 # PhiSpyWeb
 
+[![Edwards Lab](https://img.shields.io/badge/Bioinformatics-EdwardsLab-03A9F4)](https://edwards.flinders.edu.au/)
+[![-viz](https://img.shields.io/badge/FAME--viz-03A9F4)](https://edwards.flinders.edu.au/viz/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub language count](https://img.shields.io/github/languages/count/linsalrob/phispyviz)
+
+
+![-viz bioinformatics](images/viz.png)
+
 **PhiSpyWeb** is a browser-based prophage prediction tool that runs [PhiSpy](https://github.com/linsalrob/PhiSpy) entirely in your web browser using [Pyodide](https://pyodide.org) and WebAssembly.
 
 No installation required. No data leaves your computer.
