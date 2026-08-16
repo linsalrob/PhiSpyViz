@@ -37,7 +37,7 @@ const PYODIDE_PLATFORM = process.env.PYODIDE_PLATFORM ?? "wasm32";
 async function fetchJson(url) {
   const headers = {
     Accept: "application/vnd.github+json",
-    "User-Agent": "PhiSpyWeb-sync-script",
+    "User-Agent": "PhiSpyViz-sync-script",
   };
   if (process.env.GITHUB_TOKEN) {
     headers["Authorization"] = `Bearer ${process.env.GITHUB_TOKEN}`;
@@ -53,7 +53,7 @@ async function fetchJson(url) {
 }
 
 async function downloadFile(url, destPath) {
-  const headers = { "User-Agent": "PhiSpyWeb-sync-script" };
+  const headers = { "User-Agent": "PhiSpyViz-sync-script" };
   if (process.env.GITHUB_TOKEN) {
     headers["Authorization"] = `Bearer ${process.env.GITHUB_TOKEN}`;
   }

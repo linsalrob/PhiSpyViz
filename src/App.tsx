@@ -175,12 +175,12 @@ export default function App() {
   return (
     <>
       <header className="app-header">
-        <h1>PhiSpyWeb</h1>
+        <h1>PhiSpyViz</h1>
         <div className="tagline">
           Browser-based prophage prediction using PhiSpy, Pyodide, and WebAssembly
         </div>
         <div className="privacy-notice">
-          🔒 PhiSpyWeb runs locally in your browser. Your input genome file is not
+          🔒 PhiSpyViz runs locally in your browser. Your input genome file is not
           uploaded to a server.
         </div>
       </header>
@@ -299,7 +299,7 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        PhiSpyWeb &mdash; powered by{" "}
+        PhiSpyViz &mdash; powered by{" "}
         <a
           href="https://github.com/linsalrob/PhiSpy"
           target="_blank"
@@ -317,7 +317,7 @@ export default function App() {
         </a>
         . Source on{" "}
         <a
-          href="https://github.com/linsalrob/PhiSpyWeb"
+          href="https://github.com/linsalrob/PhiSpyViz"
           target="_blank"
           rel="noopener noreferrer"
         >

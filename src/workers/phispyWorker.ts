@@ -151,7 +151,7 @@ async function getPhiSpyWheelUrlFromLocalManifest(): Promise<{
     self.location.origin
   ).toString();
 
-  postStatus("Using PhiSpy wheel from PhiSpyWeb static wheels manifest", {
+  postStatus("Using PhiSpy wheel from PhiSpyViz static wheels manifest", {
     manifestUrl,
   });
 
@@ -296,7 +296,7 @@ import sys
   // Resolve the wheel to install from the local static manifest (pre-populated
   // by scripts/sync-latest-phispy-wheel.mjs).  The GitHub Releases API is still
   // used separately to log which version is available upstream, but the actual
-  // micropip.install() call always uses the mirrored wheel on the PhiSpyWeb
+  // micropip.install() call always uses the mirrored wheel on the PhiSpyViz
   // GitHub Pages origin to avoid GitHub release CORS restrictions.
   let wheelUrl: string;
   let wheelVersion: string;
@@ -323,7 +323,7 @@ import sys
   wheelVersion = local.version;
   wheelName = local.wheel;
 
-  postStatus("Installing PhiSpy wheel from PhiSpyWeb static wheels", {
+  postStatus("Installing PhiSpy wheel from PhiSpyViz static wheels", {
     version: wheelVersion,
     tag: local.tag,
     wheelName,
